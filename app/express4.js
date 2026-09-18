@@ -2,7 +2,7 @@ import express from 'express';
 import mysql from 'mysql';
 
 const app = express();
-const port = 3000;
+const port = 3004;
 
 // Create connection
 const db = mysql.createConnection({
